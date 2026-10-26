@@ -69,19 +69,18 @@ It helps users:
 
 ## 🖼️ Dashboard Preview
 
-Add your three existing dashboard images to a folder named `screenshots` in this repository. Update the filenames below to match your actual image files.
-
 ### Main Dashboard
 
-"D:\Desktop\Data Analytics\Projects\Mobile_Sales_Analysis_PBI\Main Dashboard.png"
+<img width="1375" height="803" alt="Main Dashboard" src="https://github.com/user-attachments/assets/c0292225-2a6a-4df7-ac32-f947a77a3162" />
 
 ### MTD Report
 
-"D:\Desktop\Data Analytics\Projects\Mobile_Sales_Analysis_PBI\MTD Report.png"
+<img width="1306" height="723" alt="MTD Report" src="https://github.com/user-attachments/assets/561da1a5-d42c-4217-a844-fc8c9ba1b1e9" />
 
 ### Same Period Last Year
 
-"D:\Desktop\Data Analytics\Projects\Mobile_Sales_Analysis_PBI\Same Period Last Year.png"
+<img width="1337" height="790" alt="Same Period Last Year" src="https://github.com/user-attachments/assets/80876366-4c4f-4b64-904e-a8cec309aa30" />
+
 
 ## 📈 Key Performance Indicators
 
