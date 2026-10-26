@@ -1,0 +1,116 @@
+# Mobile Sales Analysis — Business Insights & Recommendations
+
+**Project:** Mobile Sales Analysis Dashboard  
+**Tool:** Microsoft Power BI  
+**Author:** Chirag Das
+
+## 1. Project Objective
+
+The objective of this project is to analyze mobile sales performance across different brands, payment methods, months, and reporting periods. The dashboard helps identify sales patterns, compare performance, monitor KPIs, and develop data-driven business recommendations.
+
+## 2. Key Business Insights
+
+### Insight 1: Apple leads the brand-wise sales comparison
+
+The dashboard shows the following approximate sales values:
+
+| Brand | Sales |
+|---|---:|
+| Apple | 161.62M |
+| Samsung | 160.04M |
+| OnePlus | 153.72M |
+| Vivo | 150.08M |
+| Xiaomi | 143.75M |
+
+**Observation:** Apple has the highest reported sales among these five brands, followed closely by Samsung. The difference between Apple and Samsung is approximately 1.58M.
+
+**Business implication:** The top two brands have similar sales values in this report, so comparing units sold, average selling price, and profit could reveal what drives their performance.
+
+**Recommendation:** Evaluate brand performance using sales, quantity, and profitability together before making inventory or marketing decisions.
+
+### Insight 2: Xiaomi records the lowest sales among the five listed brands
+
+**Observation:** Xiaomi has approximately 143.75M in reported sales, the lowest among the five brands shown.
+
+**Business implication:** This may indicate a difference in sales volume, product pricing, product mix, or availability. Sales figures alone do not establish the reason.
+
+**Recommendation:** Investigate Xiaomi's units sold, popular models, pricing, discounts, and stock availability to identify potential improvement opportunities.
+
+### Insight 3: Payment methods have a relatively balanced distribution
+
+The dashboard displays the following approximate percentages:
+
+| Payment Method | Displayed Percentage |
+|---|---:|
+| UPI | 26.36% |
+| Debit Card | 24.72% |
+| Credit Card | 24.69% |
+| Cash | 24.22% |
+
+**Observation:** UPI has the largest displayed share, while cash has the smallest. The percentages are relatively close.
+
+**Business implication:** If these percentages represent transaction counts, customers appear to use multiple payment methods rather than relying heavily on one option.
+
+**Recommendation:** Confirm whether the chart measures transaction count or sales value. Use that definition when evaluating payment preferences and deciding where to improve the checkout experience.
+
+### Insight 4: Monthly quantity shows variation
+
+**Observation:** In the dashboard view shared, July displays approximately 1,700 units and February approximately 1,451 units.
+
+**Business implication:** The difference may indicate monthly variation in demand, but it should not be interpreted as seasonality without comparing multiple years and checking active filters.
+
+**Recommendation:** Compare monthly quantities across years and investigate promotions, holidays, product launches, and inventory availability to identify possible demand patterns.
+
+### Insight 5: Year-over-year analysis can help evaluate performance
+
+**Observation:** The Same Period Last Year report provides a view for comparing performance across reporting periods.
+
+**Business implication:** Comparing equivalent periods can help identify whether sales are increasing or decreasing and when further investigation is needed.
+
+**Recommendation:** Calculate the absolute sales change and year-over-year percentage change using equivalent date ranges. Investigate the brands, cities, and months contributing most to the change.
+
+*Exact growth figures should be added only after verifying the values and time-intelligence calculations in Power BI.*
+
+### Insight 6: Average Price KPI requires validation
+
+**Observation:** The dashboard displays an average-price KPI of approximately 40.11K.
+
+**Business implication:** An incorrectly aggregated or formatted price measure could lead to misleading business conclusions.
+
+**Recommendation:** Verify the measure against the source data. Confirm whether it calculates average unit price, average transaction value, or another metric, and display the appropriate currency and units.
+
+### Insight 7: Overall sales and transaction volume provide a performance baseline
+
+**Observation:** The dashboard shows approximately 769.20M in total sales and 3,835 transactions.
+
+**Business implication:** These KPIs provide a high-level view of activity, but they need clear definitions and validated units before being used for business decisions.
+
+**Recommendation:** Confirm the sales currency, transaction-count logic, date range, and filter context. Consider adding sales per transaction if it is meaningful for the dataset.
+
+## 3. Recommended Business Actions
+
+1. **Optimize brand strategy:** Compare brand sales, units sold, average selling price, and profit.
+2. **Investigate lower-performing brands:** Examine pricing, product availability, and model-level performance.
+3. **Understand payment preferences:** Validate the payment chart's metric and compare transaction count with sales value.
+4. **Plan around demand patterns:** Use multi-year monthly trends to support inventory and promotional planning.
+5. **Monitor growth:** Track sales changes against equivalent periods in the previous year.
+6. **Improve KPI reliability:** Document and validate all important DAX measures.
+
+## 4. Further Analysis Opportunities
+
+To strengthen the project, the following questions can be explored:
+
+- Which brand generates the highest profit, not just the highest sales?
+- Which cities contribute the most to total sales?
+- Which mobile brands sell the greatest number of units?
+- Which months consistently perform best across multiple years?
+- Does payment-method preference vary by city or brand?
+- What factors explain changes in year-over-year sales?
+
+## 5. Conclusion
+
+The Mobile Sales Analysis Dashboard provides an interactive view of brand performance, payment methods, monthly quantity, and time-based comparisons. The preliminary results indicate that Apple and Samsung lead the displayed brand sales comparison, payment methods have relatively close shares, and monthly quantities vary.
+
+The next step is to validate KPI calculations and reporting periods, then expand the analysis to profitability, geographic performance, and year-over-year changes. These improvements would make the dashboard more useful for business planning and demonstrate practical data analysis skills.
+
+**Note:** Numerical observations in this document are based on previously shared dashboard screenshots. Verify all figures, metric definitions, currency units, and filter settings against the underlying Power BI report before publishing.
